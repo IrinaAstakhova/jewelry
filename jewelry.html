@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="jewelry.css">
+    <link rel="stylesheet" href=" https://use.fontawesome.com/releases/v6.7.0/css/all.css">
+    <title>Jewelry Website</title>
+</head>
+<body>
+    <din class="menu_mob"><i class="fa-solid fa-bars"></i> Menu</din>
+    <header>
+        <div class="icon_close"><i class="fa-solid fa-x"></i></div>
+        <div class="logo"><span>FJ</span></div>
+        <menu>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#Services">Services</a>
+            <a href="#Gallery">Gallery</a>
+            <a href="#About">About us</a>
+        </nav>
+        <button class="btn">Contact</button>
+        </menu>
+    </header>
+<div class="body">
+<main>
+    <section id="home">
+        <div class="flexbox">
+            <div>
+                <h2>Beautiful, masterful design never goes out of fashion.</h2>
+                <div class="contact_btn_block">
+                    <button class="btn">Contact</button>                    
+                        <a href="#Gallery">Gallery <img src="./jewelry_picture/arrow.png" alt="arrow"></a>                                     
+                </div>
+            </div>
+            <div class="image_pseudo">
+                <img src="./jewelry_picture/s1_big_pic.png" alt="big">
+                <img src="./jewelry_picture/s1_small_pic.png" alt="small">
+            </div>
+        </div>
+    </section>
+    <section id="Services">
+        <h3>Our Services</h3>
+        <div class="flexbox">
+            <img src="./jewelry_picture/s2_big_pic.png" alt="custom">
+            <div class="flexblock">
+                <h4>Custom Jewelry</h4>
+                <p>Our team specializes in designing and crafting complex custom jewelry in gold or platinum. Our 3D designers can work with even the most complex ideas and create a digital model for you to approve before committing to production.</p>
+                <button class="btn">Read more</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="flexbox">
+        <div class="flexblock">
+            <h4>Engagement Ring</h4>
+            <p>Our team of 3d modelers and jewelers can create literally any ring you can imagine, including complex designs. We're opening up our services to private clients, so you can get a beautiful, designer quality engagement ring at an affordable price.</p>
+            <button class="btn">Read more</button>
+        </div>
+        <img src="./jewelry_picture/s3_big_pic.png" alt="custom">
+    </div>
+</section>
+    <section>
+        <div class="flexbox">
+        <img src="./jewelry_picture/s4_big_pic.png" alt="custom">
+        <div class="flexblock">
+            <h4>Jewelry Manufacturing</h4>
+            <p>We work with you to make sure your jewelry is produced exactly as your specify and with impeccable standards. We can manufacture a unique collection for your store, or even work with custom orders for your customers.</p>
+            <button class="btn">Read more</button>
+        </div>
+    </div>
+</section>
+    <section>        
+        <div class="flexbox bg-wine">
+            <img src="./jewelry_picture/s5_big_pic.png" alt="custom">
+            <div class="flexblock ">
+             <h4>No limits to the lifestyle you deserve.</h4>
+             <p>Contact us and we’ll reply you back with  personalized plan and quote.</p>
+             <button class="btn-wineblock">Send Your Design Idea</button>
+        </div>
+    </div>
+</section>
+    <section id="Gallery">
+<h3>Connect us on <br>Instagram</h3>
+<div class="grid">
+    <div class="grid-cover">
+        <img src="./jewelry_picture/s6_01.png" alt="jewelry">
+    </div>
+    <div class="grid-cover">
+        <img src="./jewelry_picture/s6_02.png" alt="jewelry">
+    </div>
+    <div class="grid-cover">
+        <img src="./jewelry_picture/s6_03.png" alt="jewelry">
+    </div>
+    <div class="grid-cover">
+        <img src="./jewelry_picture/s6_04.png" alt="jewelry">
+    </div>
+</div>
+</section>
+<section>
+    <h3>Price from</h3>
+    <div class="flex-price">
+        <div class="picture-around">
+            <svg class="circle" width="200px" height="200px" viewBox="0 0 200 200">
+                <path id="circleShape" class="circle_shape" d=" M 20, 100 a 80, 80 0 1,1 160,0 a 80,80 0 1,1 -160,0" fill="none"/>
+                <path class="circle_arrow" d="M 75 100 L 125 100 L 110 85 M 125 100 L 110 115" fill="none" stroke="#2b2024"></path>
+                <text class="circle-text">
+                    <textPath href="#circleShape">Price from your jewerly</textPath>
+                </text>
+            </svg>
+        </div>
+        <div class="price_calc">
+            <form>
+                <p class="form_title"> Select jewelry:</p>
+                <select class="form_select" id="selectProduct">
+                    <option value="0"disabled selected>--Select--</option>
+                    <option value="1000">Earrings (1000 €)</option>
+                    <option value="1500">Pendant (1500 €)</option>
+                    <option value="2000">Ring (2000 €)</option>
+                    <option value="2200">Necklace (2200 €)</option>
+                    <option value="3500">The tiara (3500 €)</option>
+                </select>
+                <p class="form_title">Specify the quantity:</p>
+                <input class="input_qualinty" type="number" value="0" min="0">
+                <button class="btn_calc">Сalculate
+                </button>
+            </form>
+            <div class="block_total" style="display: none;">
+                <p class="form_total">Total: <span class="total"></span> €</p>
+                <p class="form_submit">Submit your application: <a href="mailto:info@jewelry.com">info@jewelry.com</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+    <section id="About">
+        <h3>About us</h3>
+        <div class="flexbox">
+            <img src="./jewelry_picture/s7_big_pic.png" alt="custom">
+            <div class="flexblock">
+                <p>At NaamNYC, we work with high-end designers (both new and established), retail stores, and also private clients looking for that perfect custom piece or engagement ring.</p>
+                <p>
+                    Our studio combines over 20 years of experience with a modern focus on 3d printing technology. While we specialize in custom design and digital modeling, we're also a respected high-end jewelry manufacturer.
+                </p>
+                <p>
+                    Our expert team of jewelers and designers will take your custom design idea all the way from concept to reality.  
+                </p>
+                <div class="social-icons">
+                    <a href=""><img src="./jewelry_picture/twitter 1.png" alt="twitter"></a>
+                    <a href=""><img src="./jewelry_picture/facebook 1.png" alt="facebook"></a>
+                    <a href=""><img src="./jewelry_picture/instagram 1.png" alt="instagram"></a>
+                </div>
+            </div>
+        </div>
+        <button class="btn section-8">Contact us</button>
+    </section>
+    <section >
+        <div id="contacts-popup">
+        <div class="close_popup"><i class="fa-solid fa-x" ></i></div>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia earum neque, adipisci, consectetur libero ducimus eum maiores laboriosam nemo dolores officiis expedita non magnam aspernatur? Animi quidem laborum eius nisi!
+            Temporibus, incidunt hic impedit possimus provident, consequuntur eaque dolore rerum error delectus nobis dolorum iste perspiciatis. Ipsa voluptatibus facere corrupti voluptatum totam consequatur quo sint fugiat eius! Quo, eveniet doloremque!</p>   
+    </div>
+    </section>
+</main>
+<footer>
+    <div class="flex-footer naam">
+        <h5>Naam</h5>
+        <p>At NaamNYC, we work with high-end designers (both new and established), retail stores, and also private clients looking for that perfect custom piece or engagement ring.</p>
+    </div>
+    <div class="flex-footer about">
+        <h5>About us</h5>
+        <div><a href="">Services</a></div>
+        <div><a href="">Gallery</a></div>
+        <div><a href="">About us</a></div>
+    </div>
+    <div class="flex-footer support">
+        <h5>Support</h5>
+        <div>
+            <img src="./jewelry_picture/Message.png" alt="">
+            <a href="">hello@naamnyc.com</a></div>
+        <div>
+            <img src="./jewelry_picture/Phone.png" alt="">
+            <a href="">+12-345-6789</a></div>
+            <div class="social-icons">
+                <a href=""><img src="./jewelry_picture/twitter 1.png" alt=""></a>
+                <a href=""><img src="./jewelry_picture/facebook 1.png" alt=""></a>
+                <a href=""><img src="./jewelry_picture/instagram 1.png" alt=""></a>
+            </div>
+    </div>
+</footer>
+</div>
+<div class="top"><i class="fa-solid fa-arrow-up"></i></div>
+  <script src="./jewelry.js"></script>  
+</body>
+</html>
